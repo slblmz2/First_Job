@@ -19,8 +19,6 @@ body {
   text-decoration: none;
   font-size: 1rem;
   margin-left: auto;
-  
-
 }
 /*============= NAVIGATION =============*/
 .navbar-brand img{
@@ -43,17 +41,18 @@ body {
   color: #aaaaaa!important;
 }
 
+
 .nav-link.active,
-.nav-link:hover{
+.nav-link:hover,
+.nav-link:focus,
+.nav-brand{
+  outline: none;
   color: white!important;
 }
 
 /*============= CAROUSEL =============*/
 #carousel{
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, .3);
-}
-.carousel-inner{
-  max-height: 50rem!important;
 }
 
 
