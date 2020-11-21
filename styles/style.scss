@@ -1,0 +1,213 @@
+body {
+    overflow-x: hidden;
+    font-family: montserrat, sans-serif;
+    color: #616971;
+    font-size: 16px;
+    background: darkgray;
+  }
+  
+  /*============= TOP BAR HEADER =============*/
+  
+
+
+  .top-bar{
+    padding: 5px 1rem!important;
+    margin: auto 2px!important;
+    background: rgb(22, 22, 22);
+    height: 2.2rem;
+    img{
+      border: 1px ridge rgba(0, 0, 0, .6);;
+      border-radius: 6px;
+      width: 2.5rem;
+      height: 1.5rem;
+    }
+    
+  a {
+      text-decoration: none;
+      :focus{
+        outline: none;  
+      }
+    }
+  }
+  
+  
+  /*============= NAVIGATION =============*/
+  .navbar-brand img{
+    height: 2.5rem;
+  }
+  
+  .navbar{
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+    background: silver!important;
+    z-index: 1;  
+  }
+  
+  .nav-item{
+    padding: .3rem;
+  }
+  
+  .nav-link{
+    color: #9caaab!important;
+  }
+  
+  .nav-link.active,
+  .nav-link:hover,
+  .nav-link:focus {
+    outline: none;
+    color: rgb(255, 255, 255)!important;
+  }
+  
+  /*============= CAROUSEL =============*/
+  #carousel{
+    box-shadow: 0 1rem 1rem rgba(146, 160, 156, 0.3);
+  }
+  
+  
+  /*---Change Carousel Transition Speed --*/
+  .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item.active {
+    transition: transform 1.2s ease;
+  }
+  
+  /*-- Carousel Content --*/
+  .about-us{
+    font-family: montserrat, sans-serif;
+    background: rgb(216, 216, 216);
+    img {
+        max-width: 250px;
+        margin: 0 1rem;
+        border-radius: 1rem;
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, .5);
+    }
+    box-shadow: 0 0rem 1rem rgba(0, 0, 0, .5);
+    padding: 2rem 0;
+  }
+  .about-img{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about-text{
+      margin: auto;
+      
+  
+}
+ .row {
+    margin: 0 0 0 0!important;
+    padding: 1rem 0;
+  } 
+  
+  .about-us-head{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-shadow: 2px 3px 2px black;
+    margin-bottom: 5rem;
+    color: #cdd0d7;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  
+  
+  /*===== FIXED BACKGROUND IMG =====
+  
+  
+  
+  /*============= FOOTER =============*/
+  footer {
+    background: rgb(37, 37, 37);
+    img {
+      max-height: 90px!important;
+    }
+  .footer-socials {
+    .fa-facebook-square:hover{
+      color: #4267B2!important;
+    }
+    .fa-twitter:hover{
+      color: #1DA1F2!important;
+    }
+    .fa-youtube-square:hover{
+      color: red!important;
+    }
+    .fa-pinterest-square:hover{
+      color: #F0002A!important;
+    }
+  }
+}
+  /*============= SOCKET =============*/
+.socket {
+  background: black;
+  padding: 1.4rem 0!important;
+  border: 1px;
+  a {
+    :hover{
+      color: white;
+      text-decoration: underline;
+    }
+  }
+}
+  
+  
+  /*============= MEDIA QUERIES =============*/
+  
+  /* Devices under 1199px (xl) */
+  @media (max-width: 1199.98px) {
+    
+  }
+  /* Devices under 768px (md) */
+  @media (max-width: 992px) {
+    .about-us {
+        display: block;
+        .about-text {
+            order: 1;
+        }
+        .about-img{
+            order:2
+        }
+    }
+  }
+  @media (max-width: 768px) {
+    .top-bar{
+      height: 2rem;
+      font-size: .9rem;
+      padding-top: 1rem;
+    }
+  }
+  @media (max-width: 500px) {
+    .top-bar{
+      height: 1.5rem;
+      font-size: .7rem;
+      padding-top: .8rem;
+      img {
+        width: 2.2rem;
+        height: 1.1rem;
+      }
+    }
+  }
+  
+  /*============ BOOTSTRAP BREAK POINTS:
+  
+  Extra small (xs) devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap
+  
+  Small (sm) devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  
+  Medium (md) devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+  Large (lg) devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  
+  Extra (xl) large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+  
+  =============*/
+  
+  /*-- Bootstrap Mobile Gutter Fix --*/
+
+  
+  
+  
